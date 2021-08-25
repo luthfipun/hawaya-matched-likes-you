@@ -20,6 +20,10 @@ function logProgress(msg){
     console.log(chlk.blue(msg))
 }
 
+function logInfo(msg){
+    console.log(chlk.magenta(msg))
+}
+
 module.exports = {
-    logError, log, logSuccess, logWarning, logProgress
+    logError, log, logSuccess, logWarning, logProgress, logInfo
 }
